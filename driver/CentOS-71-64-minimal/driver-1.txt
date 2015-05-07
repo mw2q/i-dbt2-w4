@@ -1,0 +1,89 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 4
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 4
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430927065
+driver will ramp up in  3 seconds
+will stop test at time 1430927668
+seed for 56198:ccb6d700 : 2582836045
+seed for 56198:ccb4c700 : 2583635886
+seed for 56198:ccb2b700 : 2583351120
+seed for 56198:ccb0a700 : 2583582277
+seed for 56198:ccae9700 : 2581715325
+seed for 56198:ccac8700 : 2581676106
+seed for 56198:ccaa7700 : 2582129420
+seed for 56198:cca86700 : 2582163994
+seed for 56198:cca65700 : 2582054205
+seed for 56198:cca44700 : 2581851195
+seed for 56198:cca23700 : 2581993430
+seed for 56198:cca02700 : 2582370311
+seed for 56198:cc9e1700 : 2580964137
+seed for 56198:cc9c0700 : 2580728531
+seed for 56198:cc99f700 : 2580987385
+seed for 56198:cba4f700 : 2666083554
+seed for 56198:cba2e700 : 2665529218
+seed for 56198:cba0d700 : 2665481899
+seed for 56198:cb9ec700 : 2665475466
+seed for 56198:cb9cb700 : 2665157814
+seed for 56198:cb9aa700 : 2665389149
+seed for 56198:cb989700 : 2664652954
+seed for 56198:cb968700 : 2665401230
+seed for 56198:cb947700 : 2665132678
+seed for 56198:cb926700 : 2665293197
+seed for 56198:cb905700 : 2665317061
+seed for 56198:cb8e4700 : 2664175102
+seed for 56198:cb8c3700 : 2664208208
+seed for 56198:cb8a2700 : 2664111705
+seed for 56198:cb881700 : 2664407511
+seed for 56198:cb860700 : 2663516377
+seed for 56198:cb83f700 : 2663920242
+seed for 56198:cb81e700 : 2664015120
+seed for 56198:cb7fd700 : 2654012061
+seed for 56198:cb7dc700 : 2654138047
+seed for 56198:cb7bb700 : 2654343557
+seed for 56198:cb79a700 : 2654705850
+seed for 56198:cb779700 : 2654413747
+seed for 56198:cb758700 : 2654243477
+seed for 56198:cb737700 : 2654272898
+terminals started...
+driver is exiting normally
